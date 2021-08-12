@@ -1,0 +1,19 @@
+{
+  "id": 0,
+  "category": {
+    "id": 3,
+    "name": "dog"
+  },
+  "name": "TesteQA",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 2100,
+      "name": "sta"
+    }
+  ],
+  "status": "available"
+}
+
