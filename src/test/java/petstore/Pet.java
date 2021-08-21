@@ -10,7 +10,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
-import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.Matchers.contains;
 
 // 3- Classe
@@ -111,4 +111,19 @@ public class Pet {
 
     }
 
+    @Test
+    public void consultarPetPorStatus(){
+        String status = "available";
+
+        given() // dado que
+                .contentType("application/json")
+                .log().all()
+        .when()
+                .get(uri + "/findByStatus?status="  + status )
+        .then()
+                .log().all()
+                .statusCode(200)
+                .body("name[]", everyItem(equalTo("TesteQA")))
+        ;
+     }
 }
