@@ -1,0 +1,76 @@
+Request method:	POST
+2Request URI:	https://petstore.swagger.io/v2/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "TesteQA1",
+    "lastName": "TesteQA1",
+    "password": "5458456",
+    "userStatus": "0",
+    "phone": "11984845154",
+    "id": "2030",
+%    "email": "TesteQA1@TesteQA.com",
+    "username": "TesteQA1"
+}
+HTTP/1.1 200 OK
+%Date: Sat, 28 Aug 2021 16:12:00 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "2030"
+}
+O userID Ã© 2030
+Request method:	POST
+2Request URI:	https://petstore.swagger.io/v2/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "TesteQA2",
+    "lastName": "TesteQA2",
+    "password": "5458456",
+    "userStatus": "0",
+    "phone": "11984845155",
+    "id": "2031",
+%    "email": "TesteQA2@TesteQA.com",
+    "username": "TesteQA2"
+}
+HTTP/1.1 200 OK
+%Date: Sat, 28 Aug 2021 16:12:14 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "2031"
+}
+O userID Ã© 2031
